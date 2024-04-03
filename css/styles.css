@@ -202,46 +202,6 @@ bottom: -1px;
 .button-hero:hover {
   background-color: #404bbf;
   }
-/* ======== MODAL======== */
-
-.modal-overlay{
- position: fixed;
-    top: 0;
-  left: 0;
-  width: 100%;
-height: 100%;
-   z-index: 999;
-   opacity: 0;
-   pointer-events: none;
-   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero.is-open{
-  opacity: 1;
-  pointer-events: auto;
-
-}
-.modal {
-  position:absolute;
-  background-color: #fcfcfc;
-  border-radius: 4px;
-max-width: 408px;
-max-height: 584px;
-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-overflow-y: auto;
-top:50%;
-left:50%;
-transform: translate (-50%, -50%);
-}
- 
-
-
-
-
-
-
-
-
 
 /* VALUES */
 
@@ -586,3 +546,40 @@ width: 264px;
 height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
+
+/* ======== MODAL======== */
+
+.modal-overlay{
+ position: fixed;
+    top: 0;
+  left: 0;
+  width: 100%;
+height: 100%;
+   z-index: 999;
+   opacity: 0;
+   pointer-events: none;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero.is-open{
+  opacity: 1;
+  pointer-events: auto;
+
+}
+.modal {
+  position:absolute;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+max-width: 408px;
+max-height: 584px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+overflow-y: auto;
+top:50%;
+left:50%;
+transform: translate (-50%, -50%);
+}
+ 
+
+
+
+
