@@ -644,3 +644,34 @@ margin-bottom: 16px;
 letter-spacing: 0.04em;
 color: #8e8f99;
 }
+
+.name-ic{
+  position: relative;
+}
+
+.modal-n{
+  width: 100%;
+  border: 1px solid #4d5ae5;
+border-radius: 4px;
+height: 40px;
+background-color: transparent; 
+padding-left: 38px; 
+outline: transparent; 
+ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-n:focus{
+  border-color: #4D5AE5; 
+}
+.icon-modal {
+  position: absolute;
+  left: 16px;
+  top: 50%; 
+  transform: translateY(-50%); 
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.modal-n .icon-modal:focus{
+  fill: #4D5AE5; 
+}
