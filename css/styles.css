@@ -506,6 +506,7 @@ margin-right: 120px;
 }
 
 .soc-footer {
+
   margin-bottom: 16px; 
   font-size: 16px;
   font-weight: 500;
@@ -563,10 +564,11 @@ border: none;
   margin-left: 16px;
 
 }
-
+.fot-subscribe {
+    margin-left: 80px;
+}
 .fot-form{
   display: flex;
-  margin-left: 80px;
   gap: 24px;
 }
 .fot-mail {
