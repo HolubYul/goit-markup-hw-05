@@ -575,6 +575,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 top:50%;
 left:50%;
 transform: translate (-50%, -50%);
+padding: 72px 24px 24px 24px; 
 }
  
 
@@ -619,4 +620,14 @@ background: #4d5ae5;
 
 .btn-close-img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.modal-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+margin-bottom: 16px; 
 }
