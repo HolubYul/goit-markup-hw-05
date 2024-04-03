@@ -595,7 +595,12 @@ cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-
+.btn-close:hover,
+.btn-close:focus{
+  fill: #fff;
+  background-color: #404bbf;
+  border: none;
+}
 
 .btn-modal{
   font-weight: 500;
@@ -612,4 +617,6 @@ box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 }
 
-
+.btn-close-img {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
