@@ -722,4 +722,15 @@ border: 1px solid rgba(46, 47, 66, 0.4);
      display: inline-flex; 
       justify-content: center; 
       fill: transparent; 
+      align-items: center; 
+}
+
+.agree-vv:checked {
+  background-color: #404bbf;
+   border: none; 
+   fill: #F4F4FD; 
+}
+
+.ppolicy{
+  color:#4d5ae5;
 }
