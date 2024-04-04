@@ -711,7 +711,7 @@ border: 1px solid rgba(46, 47, 66, 0.4);
       align-items: center; 
 }
 
-.agree-vv input:checked {
+.agree-vv input[type="checkbox"]:checked + span {
   background-color: #404bbf;
    border: none; 
    fill: #F4F4FD; 
